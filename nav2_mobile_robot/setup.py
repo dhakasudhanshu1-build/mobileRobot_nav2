@@ -13,6 +13,12 @@ setup(
         ('share/' + package_name, ['urdf/nav2_mobile_robot.xacro']),
         ('share/' + package_name, ['urdf/nav2_mobile_robot_macro.xacro']),
         ('share/' + package_name, ['launch/display.launch.py']),
+        ('share/' + package_name, ['worlds/maze.sdf']),
+        ('share/' + package_name, ['launch/nav2_mobile_robot_gazebo.launch.py']),
+        ('share/' + package_name, ['launch/slam.launch.py']),
+        ('share/' + package_name, ['conf/slam.yaml']),
+
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,
