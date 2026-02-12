@@ -43,7 +43,7 @@
                     <sphere radius="${passive_wheel_radius}" />
                 </geometry>
                 <origin xyz="0 0.02 0" rpy="${M_PI/2} 0 0" />
-                <! this defin the position and orientatin of wheel that is 2cm offset in y-axis roll of 90deg(roll hapens in x axis) >
+                <!--this defin the position and orientatin of wheel that is 2cm offset in y-axis roll of 90deg(roll hapens in x axis) -->
             </collision> 
 
             <inertial>
