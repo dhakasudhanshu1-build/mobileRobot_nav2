@@ -17,8 +17,8 @@ class JoyToTwistNode(Node):
     def joy_callback(self, msg: Joy):
         twist = Twist()
         # Map joystick axes to Twist message
-        twist.linear.x = msg.axes[1]*0.8  # Assuming forward/backward on left stick Y-axis
-        twist.angular.z = msg.axes[2]  # Assuming left/right on left stick X-axis
+        twist.linear.x = msg.axes[1] * 0.8  # Assuming forward/backward on left stick Y-axis
+        twist.angular.z = msg.axes[3] * 1.0   # Assuming left/right on left stick X-axis
         self.publisher.publish(twist)
 
 def main(args=None):

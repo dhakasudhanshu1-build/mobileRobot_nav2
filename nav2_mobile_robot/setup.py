@@ -17,6 +17,11 @@ setup(
         ('share/' + package_name, ['launch/nav2_mobile_robot_gazebo.launch.py']),
         ('share/' + package_name, ['launch/slam.launch.py']),
         ('share/' + package_name, ['conf/slam.yaml']),
+        ('share/' + package_name, ['launch/map_server.launch.py']),
+        ('share/' + package_name, ['map/map.yaml']),
+        ('share/' + package_name, ['map/map.pgm']),
+        ('share/' + package_name, ['conf/amcl.yaml']),
+        ('share/' + package_name, ['launch/amcl.launch.py']),
 
 
     ],
