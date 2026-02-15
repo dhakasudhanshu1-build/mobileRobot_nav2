@@ -22,6 +22,7 @@ setup(
         ('share/' + package_name, ['map/map.pgm']),
         ('share/' + package_name, ['conf/amcl.yaml']),
         ('share/' + package_name, ['launch/amcl.launch.py']),
+        ('share/' + package_name, ['launch/robot_state.launch.py']),
 
 
     ],
