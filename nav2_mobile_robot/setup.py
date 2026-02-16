@@ -22,6 +22,8 @@ setup(
         ('share/' + package_name, ['map/map.pgm']),
         ('share/' + package_name, ['conf/amcl.yaml']),
         ('share/' + package_name, ['launch/amcl.launch.py']),
+        ('share/' + package_name, ['launch/navigation.launch.py']),
+        ('share/' + package_name, ['conf/nav.yaml']),
 
 
 
